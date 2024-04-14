@@ -48,6 +48,13 @@ header {
     position: relative;
 }
 
+/* .coevrpic{
+    width: 100%;
+    height: 640px;
+    object-fit: cover;
+/* 
+/* } ამ სტილის გამოყენება ვცადე ფოტოზე, მაგრამ სწორად არ მუშაობს. მგონი სექციას რომ სიგანე აქვს მაგიტო */
+
 .orderarticle {
     width: 762px;
     height: 208px;
@@ -66,6 +73,7 @@ header {
     line-height: 56px;
     color: #FFFFFF;
     text-shadow: 0 6px 4px #372D23;
+    margin-bottom: 32px;
 }
 
 .orderbutton {
@@ -131,4 +139,39 @@ header {
     font-size: 20px;
     line-height: 28px;
     color: #FFFFFF;
+}
+
+/* footer  */
+footer {
+    padding: 32px 80px;
+    background-color: #372D23;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footertext {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCC21B;
+}
+
+.middleli {
+    margin-block: 8px;
+}
+
+.footerdiv2 {
+    display: flex;
+    column-gap: 16px;
 }
