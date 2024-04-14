@@ -41,14 +41,14 @@ header {
 }
 
 /* section 1 */
-.ordersection{
+.ordersection {
     margin-top: 136px;
     width: 1440px;
     height: 640px;
     position: relative;
 }
 
-.orderarticle{
+.orderarticle {
     width: 762px;
     height: 208px;
     background-color: #FCC21B;
@@ -59,7 +59,7 @@ header {
     transform: translate(-50%, -50%);
 }
 
-.sectiontitle{
+.sectiontitle {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 48px;
@@ -68,17 +68,64 @@ header {
     text-shadow: 0 6px 4px #372D23;
 }
 
-.orderbutton{
+.orderbutton {
     padding: 12px 38px;
     background-color: #FCC21B;
     border: 3px solid #FFFFFF;
 }
 
-.orderbutton:hover{
-    box-shadow: 0 2px 4px ;
+.orderbutton:hover {
+    box-shadow: 0 2px 4px;
 }
 
-.ordertext{
+.ordertext {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+/* section 2 */
+.foodsection {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 120px;
+    justify-content: space-between;
+}
+
+.foodtitle {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #372D23;
+}
+
+.foodarticle {
+    width: 400px;
+}
+
+.foodp {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #855C52;
+    margin-block: 40px;
+}
+
+.foodbutton {
+    padding: 12px 40px;
+    background-color: #ED6C30;
+    border: none;
+}
+
+.foodbutton:hover {
+    box-shadow: 0 2px 4px;
+}
+
+.foodspan {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 20px;
