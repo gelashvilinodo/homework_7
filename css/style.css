@@ -16,6 +16,7 @@ header {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1;
 }
 
 .logolink {
@@ -37,4 +38,50 @@ header {
 
 .active {
     color: #ED6C30;
+}
+
+/* section 1 */
+.ordersection{
+    margin-top: 136px;
+    width: 1440px;
+    height: 640px;
+    position: relative;
+}
+
+.orderarticle{
+    width: 762px;
+    height: 208px;
+    background-color: #FCC21B;
+    padding: 34px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sectiontitle{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    text-shadow: 0 6px 4px #372D23;
+}
+
+.orderbutton{
+    padding: 12px 38px;
+    background-color: #FCC21B;
+    border: 3px solid #FFFFFF;
+}
+
+.orderbutton:hover{
+    box-shadow: 0 2px 4px ;
+}
+
+.ordertext{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
 }
